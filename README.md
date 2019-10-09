@@ -8,4 +8,4 @@ Exchange rates stored in Core Data.
 
 Implemented example UITests and UnitTests.
 
-![alt text](preview.gif)
+![alt text](previewapp.gif)
