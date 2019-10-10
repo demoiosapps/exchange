@@ -24,9 +24,9 @@ class UpdateService {
     }
     
     private static func update() {
-        DispatchQueue.global(qos: .userInitiated).async {
-            let exchange = DataService.exchange()
-            if exchange.count > 0 {
+        let exchange = DataService.exchange()
+        if exchange.count > 0 {
+            DispatchQueue.global(qos: .userInitiated).async {
                 API.currencies(exchange: exchange) { response in
                     if case .success(let data) = response,
                         let values = data as? [String: Double] {

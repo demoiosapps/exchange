@@ -22,24 +22,14 @@ class ExchangeViewController: UIViewController {
         
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Roboto-Medium", size: 16)!]
         tableView.tableHeaderView = headerAddView
-        
-        DataService.define { [weak self] in
+        do {
+            try resultsController.performFetch()
+        } catch {
             #if DEBUG
-            if CommandLine.arguments.contains("--tests") {
-                DataService.clear()
-            }
+            print("data - \(error.localizedDescription)")
             #endif
-            
-            do {
-                try self?.resultsController.performFetch()
-            } catch {
-                #if DEBUG
-                print("data - \(error.localizedDescription)")
-                #endif
-            }
-            self?.updateView()
-            UpdateService.start()
         }
+        updateView()
     }
     
     // MARK: - Update
@@ -114,25 +104,22 @@ extension ExchangeViewController: UITableViewDataSource {
 
 extension ExchangeViewController: NSFetchedResultsControllerDelegate {
     
-    func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
-        tableView.beginUpdates()
-    }
-    
-    func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
-        tableView.endUpdates()
-        updateView()
-    }
-    
     func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
         switch (type) {
         case .insert:
             if let indexPath = newIndexPath {
+                tableView.beginUpdates()
                 tableView.insertRows(at: [indexPath], with: .fade)
+                tableView.endUpdates()
+                updateCells(isWait: true)
+                updateView()
             }
-            updateCells(isWait: true)
         case .delete:
             if let indexPath = indexPath {
+                tableView.beginUpdates()
                 tableView.deleteRows(at: [indexPath], with: .fade)
+                tableView.endUpdates()
+                updateView()
             }
         case .update:
             if let indexPath = indexPath,

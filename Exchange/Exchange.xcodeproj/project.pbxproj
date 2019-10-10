@@ -9,17 +9,31 @@
 /* Begin PBXBuildFile section */
 		111DF4BD234D107500B8CC0B /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4BC234D107500B8CC0B /* UpdateService.swift */; };
 		111DF4C1234D1C4300B8CC0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C0234D1C4300B8CC0B /* DataService.swift */; };
-		111DF4C2234D1C6000B8CC0B /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4BC234D107500B8CC0B /* UpdateService.swift */; };
-		111DF4C3234D1C6000B8CC0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C0234D1C4300B8CC0B /* DataService.swift */; };
-		111DF4C4234D1C6000B8CC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C03231C7ECC004B028C /* AppDelegate.swift */; };
-		111DF4C5234D1C6B00B8CC0B /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4BC234D107500B8CC0B /* UpdateService.swift */; };
-		111DF4C6234D1C6B00B8CC0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C0234D1C4300B8CC0B /* DataService.swift */; };
-		111DF4C7234D1C6B00B8CC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C03231C7ECC004B028C /* AppDelegate.swift */; };
-		111DF4CB234E076000B8CC0B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C9234E076000B8CC0B /* Model.xcdatamodeld */; };
-		111DF4CC234E18BF00B8CC0B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C9234E076000B8CC0B /* Model.xcdatamodeld */; };
-		111DF4CD234E18C700B8CC0B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C9234E076000B8CC0B /* Model.xcdatamodeld */; };
 		111DF4D2234E4C0900B8CC0B /* DataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4D1234E4C0900B8CC0B /* DataServiceTests.swift */; };
 		111DF4D4234E4C1500B8CC0B /* UpdateServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4D3234E4C1500B8CC0B /* UpdateServiceTests.swift */; };
+		111DF4D7234F2A1600B8CC0B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4D5234F2A1600B8CC0B /* Model.xcdatamodeld */; };
+		111DF4D8234F2B4C00B8CC0B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4D5234F2A1600B8CC0B /* Model.xcdatamodeld */; };
+		111DF4D9234F2B6700B8CC0B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4D5234F2A1600B8CC0B /* Model.xcdatamodeld */; };
+		111DF4DA234F2BC500B8CC0B /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4BC234D107500B8CC0B /* UpdateService.swift */; };
+		111DF4DB234F2BC500B8CC0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C0234D1C4300B8CC0B /* DataService.swift */; };
+		111DF4DC234F2BC500B8CC0B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3F231D2C9C004B028C /* Settings.swift */; };
+		111DF4DD234F2BC500B8CC0B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3C231D2C51004B028C /* API.swift */; };
+		111DF4DE234F2BC500B8CC0B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C39231C7F7B004B028C /* Request.swift */; };
+		111DF4DF234F2BC500B8CC0B /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FC32320CEF2002EF233 /* ExchangeCell.swift */; };
+		111DF4E0234F2BC500B8CC0B /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FBF2320CEDE002EF233 /* CurrencyCell.swift */; };
+		111DF4E1234F2BC500B8CC0B /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA623201CBA002EF233 /* ExchangeViewController.swift */; };
+		111DF4E2234F2BC500B8CC0B /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA823201D51002EF233 /* CurrencyTableViewController.swift */; };
+		111DF4E3234F2BC500B8CC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C03231C7ECC004B028C /* AppDelegate.swift */; };
+		111DF4E4234F2BD000B8CC0B /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4BC234D107500B8CC0B /* UpdateService.swift */; };
+		111DF4E5234F2BD000B8CC0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111DF4C0234D1C4300B8CC0B /* DataService.swift */; };
+		111DF4E6234F2BD000B8CC0B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3F231D2C9C004B028C /* Settings.swift */; };
+		111DF4E7234F2BD000B8CC0B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3C231D2C51004B028C /* API.swift */; };
+		111DF4E8234F2BD000B8CC0B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C39231C7F7B004B028C /* Request.swift */; };
+		111DF4E9234F2BD000B8CC0B /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FC32320CEF2002EF233 /* ExchangeCell.swift */; };
+		111DF4EA234F2BD700B8CC0B /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FBF2320CEDE002EF233 /* CurrencyCell.swift */; };
+		111DF4EB234F2BD700B8CC0B /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA623201CBA002EF233 /* ExchangeViewController.swift */; };
+		111DF4EC234F2BD700B8CC0B /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA823201D51002EF233 /* CurrencyTableViewController.swift */; };
+		111DF4ED234F2BD700B8CC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C03231C7ECC004B028C /* AppDelegate.swift */; };
 		11807C04231C7ECC004B028C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C03231C7ECC004B028C /* AppDelegate.swift */; };
 		11807C09231C7ECC004B028C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11807C07231C7ECC004B028C /* Main.storyboard */; };
 		11807C0B231C7ED0004B028C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11807C0A231C7ED0004B028C /* Assets.xcassets */; };
@@ -32,23 +46,9 @@
 		11991FA323201C13002EF233 /* Flags.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11991FA223201C13002EF233 /* Flags.xcassets */; };
 		11991FA723201CBA002EF233 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA623201CBA002EF233 /* ExchangeViewController.swift */; };
 		11991FA923201D51002EF233 /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA823201D51002EF233 /* CurrencyTableViewController.swift */; };
-		11991FAA23201D51002EF233 /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA823201D51002EF233 /* CurrencyTableViewController.swift */; };
-		11991FAB23201D51002EF233 /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA823201D51002EF233 /* CurrencyTableViewController.swift */; };
-		11991FAC23201D55002EF233 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA623201CBA002EF233 /* ExchangeViewController.swift */; };
-		11991FAD23201D56002EF233 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FA623201CBA002EF233 /* ExchangeViewController.swift */; };
-		11991FAE23201D5B002EF233 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C39231C7F7B004B028C /* Request.swift */; };
-		11991FAF23201D5B002EF233 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C39231C7F7B004B028C /* Request.swift */; };
-		11991FB023201D5E002EF233 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3C231D2C51004B028C /* API.swift */; };
-		11991FB123201D5F002EF233 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3C231D2C51004B028C /* API.swift */; };
-		11991FB223201D63002EF233 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3F231D2C9C004B028C /* Settings.swift */; };
-		11991FB323201D64002EF233 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11807C3F231D2C9C004B028C /* Settings.swift */; };
 		11991FBA23202A19002EF233 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11991FBC23202A19002EF233 /* Localizable.strings */; };
 		11991FC02320CEDE002EF233 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FBF2320CEDE002EF233 /* CurrencyCell.swift */; };
-		11991FC12320CEDE002EF233 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FBF2320CEDE002EF233 /* CurrencyCell.swift */; };
-		11991FC22320CEDE002EF233 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FBF2320CEDE002EF233 /* CurrencyCell.swift */; };
 		11991FC42320CEF2002EF233 /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FC32320CEF2002EF233 /* ExchangeCell.swift */; };
-		11991FC52320CEF2002EF233 /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FC32320CEF2002EF233 /* ExchangeCell.swift */; };
-		11991FC62320CEF2002EF233 /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11991FC32320CEF2002EF233 /* ExchangeCell.swift */; };
 		11991FCA2321A602002EF233 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11991FC82321A601002EF233 /* Roboto-Medium.ttf */; };
 		11991FCB2321A602002EF233 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11991FC92321A601002EF233 /* Roboto-Regular.ttf */; };
 		11AADD6523355C1900D7E1ED /* SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AADD6423355C1900D7E1ED /* SettingsTests.swift */; };
@@ -80,9 +80,9 @@
 /* Begin PBXFileReference section */
 		111DF4BC234D107500B8CC0B /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		111DF4C0234D1C4300B8CC0B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		111DF4CA234E076000B8CC0B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		111DF4D1234E4C0900B8CC0B /* DataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceTests.swift; sourceTree = "<group>"; };
 		111DF4D3234E4C1500B8CC0B /* UpdateServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateServiceTests.swift; sourceTree = "<group>"; };
+		111DF4D6234F2A1600B8CC0B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		11615302232BBD3100B469DE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		11807C00231C7ECB004B028C /* Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11807C03231C7ECC004B028C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		111DF4C8234E072D00B8CC0B /* model */ = {
 			isa = PBXGroup;
 			children = (
-				111DF4C9234E076000B8CC0B /* Model.xcdatamodeld */,
+				111DF4D5234F2A1600B8CC0B /* Model.xcdatamodeld */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -537,8 +537,8 @@
 				11991FA923201D51002EF233 /* CurrencyTableViewController.swift in Sources */,
 				11807C04231C7ECC004B028C /* AppDelegate.swift in Sources */,
 				11991FC02320CEDE002EF233 /* CurrencyCell.swift in Sources */,
+				111DF4D7234F2A1600B8CC0B /* Model.xcdatamodeld in Sources */,
 				11807C40231D2C9C004B028C /* Settings.swift in Sources */,
-				111DF4CB234E076000B8CC0B /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,25 +546,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111DF4CC234E18BF00B8CC0B /* Model.xcdatamodeld in Sources */,
-				111DF4C2234D1C6000B8CC0B /* UpdateService.swift in Sources */,
-				111DF4C3234D1C6000B8CC0B /* DataService.swift in Sources */,
-				111DF4C4234D1C6000B8CC0B /* AppDelegate.swift in Sources */,
+				111DF4DA234F2BC500B8CC0B /* UpdateService.swift in Sources */,
+				111DF4DB234F2BC500B8CC0B /* DataService.swift in Sources */,
+				111DF4DC234F2BC500B8CC0B /* Settings.swift in Sources */,
+				111DF4DD234F2BC500B8CC0B /* API.swift in Sources */,
+				111DF4DE234F2BC500B8CC0B /* Request.swift in Sources */,
+				111DF4DF234F2BC500B8CC0B /* ExchangeCell.swift in Sources */,
+				111DF4E0234F2BC500B8CC0B /* CurrencyCell.swift in Sources */,
+				111DF4E1234F2BC500B8CC0B /* ExchangeViewController.swift in Sources */,
+				111DF4E2234F2BC500B8CC0B /* CurrencyTableViewController.swift in Sources */,
+				111DF4E3234F2BC500B8CC0B /* AppDelegate.swift in Sources */,
+				111DF4D8234F2B4C00B8CC0B /* Model.xcdatamodeld in Sources */,
 				11AADD7023355C6D00D7E1ED /* CurrencyCellTests.swift in Sources */,
-				11991FB223201D63002EF233 /* Settings.swift in Sources */,
 				111DF4D2234E4C0900B8CC0B /* DataServiceTests.swift in Sources */,
 				11AADD6B23355C4700D7E1ED /* RequestTests.swift in Sources */,
-				11991FAA23201D51002EF233 /* CurrencyTableViewController.swift in Sources */,
-				11991FC52320CEF2002EF233 /* ExchangeCell.swift in Sources */,
-				11991FAE23201D5B002EF233 /* Request.swift in Sources */,
-				11991FAC23201D55002EF233 /* ExchangeViewController.swift in Sources */,
 				11AADD7323355C8D00D7E1ED /* ExchangeViewControllerTests.swift in Sources */,
 				11AADD6E23355C5E00D7E1ED /* ExchangeCellTests.swift in Sources */,
 				111DF4D4234E4C1500B8CC0B /* UpdateServiceTests.swift in Sources */,
-				11991FC12320CEDE002EF233 /* CurrencyCell.swift in Sources */,
 				11AADD6523355C1900D7E1ED /* SettingsTests.swift in Sources */,
 				11AADD6823355C2F00D7E1ED /* APITests.swift in Sources */,
-				11991FB023201D5E002EF233 /* API.swift in Sources */,
 				11AADD7523355C9E00D7E1ED /* CurrencyTableViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,18 +573,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111DF4CD234E18C700B8CC0B /* Model.xcdatamodeld in Sources */,
-				111DF4C5234D1C6B00B8CC0B /* UpdateService.swift in Sources */,
-				111DF4C6234D1C6B00B8CC0B /* DataService.swift in Sources */,
-				111DF4C7234D1C6B00B8CC0B /* AppDelegate.swift in Sources */,
-				11991FB323201D64002EF233 /* Settings.swift in Sources */,
-				11991FAB23201D51002EF233 /* CurrencyTableViewController.swift in Sources */,
-				11991FC62320CEF2002EF233 /* ExchangeCell.swift in Sources */,
-				11991FAF23201D5B002EF233 /* Request.swift in Sources */,
-				11991FAD23201D56002EF233 /* ExchangeViewController.swift in Sources */,
+				111DF4EA234F2BD700B8CC0B /* CurrencyCell.swift in Sources */,
+				111DF4EB234F2BD700B8CC0B /* ExchangeViewController.swift in Sources */,
+				111DF4EC234F2BD700B8CC0B /* CurrencyTableViewController.swift in Sources */,
+				111DF4ED234F2BD700B8CC0B /* AppDelegate.swift in Sources */,
+				111DF4E4234F2BD000B8CC0B /* UpdateService.swift in Sources */,
+				111DF4E5234F2BD000B8CC0B /* DataService.swift in Sources */,
+				111DF4E6234F2BD000B8CC0B /* Settings.swift in Sources */,
+				111DF4E7234F2BD000B8CC0B /* API.swift in Sources */,
+				111DF4E8234F2BD000B8CC0B /* Request.swift in Sources */,
+				111DF4E9234F2BD000B8CC0B /* ExchangeCell.swift in Sources */,
+				111DF4D9234F2B6700B8CC0B /* Model.xcdatamodeld in Sources */,
 				11807C24231C7ED1004B028C /* ExchangeUITests.swift in Sources */,
-				11991FC22320CEDE002EF233 /* CurrencyCell.swift in Sources */,
-				11991FB123201D5F002EF233 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,12 +915,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		111DF4C9234E076000B8CC0B /* Model.xcdatamodeld */ = {
+		111DF4D5234F2A1600B8CC0B /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				111DF4CA234E076000B8CC0B /* Model.xcdatamodel */,
+				111DF4D6234F2A1600B8CC0B /* Model.xcdatamodel */,
 			);
-			currentVersion = 111DF4CA234E076000B8CC0B /* Model.xcdatamodel */;
+			currentVersion = 111DF4D6234F2A1600B8CC0B /* Model.xcdatamodel */;
 			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

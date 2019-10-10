@@ -11,7 +11,16 @@ import CoreData
 
 class DataService {
    
-    static var persistentContainer = NSPersistentContainer(name: "Model")
+    static var persistentContainer: NSPersistentContainer = {
+        let persistentContainer = NSPersistentContainer(name: "Model")
+        persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            if let error = error as NSError? {
+                fatalError("data - unresolved error \(error), \(error.userInfo)")
+            }
+        })
+        return persistentContainer
+    }()
+    
     static var context: NSManagedObjectContext {
         return persistentContainer.viewContext
     }
@@ -31,15 +40,6 @@ class DataService {
     static func remove(_ object: NSManagedObject) {
         context.delete(object)
         save()
-    }
-    
-    static func define(result: (() -> Void)?) {
-        persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
-            if let error = error as NSError? {
-                fatalError("data - unresolved error \(error), \(error.userInfo)")
-            }
-            result?()
-        })
     }
     
     static func clear() {
