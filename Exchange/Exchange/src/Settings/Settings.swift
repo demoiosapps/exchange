@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Settings {
+final class Settings {
     
     static let server = "https://europe-west1-revolut-230009.cloudfunctions.net/revolut-ios"
     static let updateInterval: TimeInterval = 1

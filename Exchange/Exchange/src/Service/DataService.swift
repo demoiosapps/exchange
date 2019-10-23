@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class DataService {
+final class DataService {
    
     static var persistentContainer: NSPersistentContainer = {
         let persistentContainer = NSPersistentContainer(name: "Model")
@@ -130,6 +130,6 @@ class DataService {
                 return []
         }
         _currencies = currencies.map { $0.uppercased() }
-        return currencies
+        return _currencies!
     }
 }

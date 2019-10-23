@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExchangeCell: UITableViewCell {
+final class ExchangeCell: UITableViewCell {
     
     @IBOutlet weak var firstValueLabel: UILabel!
     @IBOutlet weak var firstNameLabel: UILabel!

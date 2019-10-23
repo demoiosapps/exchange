@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CurrencyTableViewController: UITableViewController {
+final class CurrencyTableViewController: UITableViewController {
     
     var currencies: [String]!
     var code: String?

@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class ExchangeViewController: UIViewController {
+final class ExchangeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var addView: UIView!

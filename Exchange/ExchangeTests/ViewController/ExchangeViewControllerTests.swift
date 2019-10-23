@@ -9,7 +9,7 @@
 
 import XCTest
 
-class ExchangeViewControllerTests: XCTestCase {
+final class ExchangeViewControllerTests: XCTestCase {
     
 }
 

@@ -7,7 +7,7 @@
 
 import XCTest
 
-class SettingsTests: XCTestCase {
+final class SettingsTests: XCTestCase {
     
     func testVariables() {
         XCTAssertGreaterThan(Settings.server.count, 0)

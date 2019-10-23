@@ -9,7 +9,7 @@
 
 import XCTest
 
-class CurrencyTableViewControllerTests: XCTestCase {
+final class CurrencyTableViewControllerTests: XCTestCase {
     
 }
 

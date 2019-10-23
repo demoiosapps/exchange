@@ -8,7 +8,7 @@
 
 import Foundation
 
-class UpdateService {
+final class UpdateService {
 
     private static var timer: Timer?
     

@@ -9,7 +9,7 @@
 import XCTest
 import CoreData
 
-class DataServiceTests: XCTestCase {
+final class DataServiceTests: XCTestCase {
 
     override func setUp() {
         DataService.defineInMemoryContainer()

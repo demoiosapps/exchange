@@ -8,7 +8,7 @@
 
 import Foundation
 
-class API {
+final class API {
     
     static func currencies(exchange: [Exchange], result: @escaping Request.ResultClosure) {
         let params = exchange.map { $0.first! + $0.second! }

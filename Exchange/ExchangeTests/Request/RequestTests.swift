@@ -9,7 +9,7 @@
 
 import XCTest
 
-class RequestTests: XCTestCase {
+final class RequestTests: XCTestCase {
     
     override func setUp() {
         Request.session = URLSessionMock()

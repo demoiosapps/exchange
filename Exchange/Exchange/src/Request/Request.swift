@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Request {
+final class Request {
     
     static var requestTimeout: TimeInterval = 60
     static var responseTimeout: TimeInterval = 60

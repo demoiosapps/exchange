@@ -7,7 +7,7 @@
 
 import XCTest
 
-class CurrencyCellTests: XCTestCase {
+final class CurrencyCellTests: XCTestCase {
     
     func testPrepare() {
         let cell = CurrencyCell()

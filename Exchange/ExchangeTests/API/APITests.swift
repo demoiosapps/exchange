@@ -7,7 +7,7 @@
 
 import XCTest
 
-class APITests: XCTestCase {
+final class APITests: XCTestCase {
     
     override func setUp() {
         DataService.defineInMemoryContainer()

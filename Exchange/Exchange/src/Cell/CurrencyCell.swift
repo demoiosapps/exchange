@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CurrencyCell: UITableViewCell {
+final class CurrencyCell: UITableViewCell {
     
     @IBOutlet weak var flagImageView: UIImageView!
     @IBOutlet weak var codeLabel: UILabel!

@@ -8,6 +8,6 @@
 
 import XCTest
 
-class UpdateServiceTests: XCTestCase {
+final class UpdateServiceTests: XCTestCase {
 
 }
