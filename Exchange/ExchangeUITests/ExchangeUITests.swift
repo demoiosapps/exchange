@@ -20,8 +20,8 @@ final class ExchangeUITests: XCTestCase {
     }
     
     func addExchange() {
-        app.cells.element(boundBy: 1).tap()
-        app.cells.element(boundBy: 1).tap()
+        app.cells.element(boundBy: 3).tap()
+        app.cells.element(boundBy: 3).tap()
     }
     
     func addPlus() {
@@ -31,7 +31,6 @@ final class ExchangeUITests: XCTestCase {
     
     func testAddMain() {
         app.buttons["addButton"].tap()
-        app.swipeDown()
         app.swipeUp()
         app.cells.element(boundBy: 5).tap()
         app.swipeUp()
